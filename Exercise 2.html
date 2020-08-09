@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form Test</title>
+</head>
+<body>
+	<form action="form.php" method="post">
+    	Name            <input type="text" name="cf_name"><br>
+    	Address     	<input type="text" name="cf_address"><br>
+    	Your e-mail     <input type="text" name="cf_email"><br>
+
+    	Gender        	 <input type="radio" id="male" name="gender" value="male">
+ 						 <label for="male">Male</label>
+ 						 <input type="radio" id="female" name="gender" value="female">
+ 						 <label for="female">Female</label><br>
+ 		Hobbies 		 <input type="checkbox" id="Sport">
+				  		 <label for="Hobbies">Sports</label>
+				  		 <input type="checkbox" id="Movies">
+				  		 <label for="Hobbies">Movies</label>
+				  		 <input type="checkbox" id="Travelling">
+				  		 <label for="Hobbies">Travelling</label><br>
+		<label for="Country">Country</label>
+		<select id="Country" name="Country">
+			<option value="Nepal">Nepal</option>
+			<option value="India">India</option>
+			<option value="Australia">Australia</option>
+			<option value="Others">Others</option>
+		</select>
+		<input type="submit"><br>
+
+
+    Message		<textarea name="message" rows="10" cols="30"></textarea><br>
+					<input type="submit"><input type="Reset">
+</form>
+</body>
+</html>
